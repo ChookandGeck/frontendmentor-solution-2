@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+}
+
+main {
+  max-height: 90vh;
+}
+
+h1 {
+  padding-top: 20px;
+  font-family: "Outfit";
+  font-weight: 600;
+  font-size: 23.8px;
+  color: hsl(0, 0%, 100%);
+}
+
+h3 {
+  padding-top: 18px;
+  font-family: "Outfit";
+  font-weight: 300;
+  font-size: 18px;
+  color: hsl(215, 51%, 70%);
+  line-height: 150%;
+}
+
+hr {
+  border-style: none;
+  border-top-style: solid;
+  border-color: hsl(215, 32%, 27%);
+  border-width: 1px;
+  width: 100%;
+  padding-bottom: 16px;
+}
+
+.card-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: hsl(216, 50%, 16%);
+  width: 340px;
+  height: 580px;
+  border-radius: 15px;
+  box-shadow: rgba(1, 14, 25, 0.725) 0px 7px 29px 0px;
+}
+
+.card-nft {
+  padding: 25px;
+}
+
+.card-image-wrapper {
+  background: url(../images/image-equilibrium.jpg);
+  background-size: 290px;
+  height: 290px;
+  width: 290px;
+  border-radius: 8px;
+  margin: 0 auto;
+}
+
+.card-view {
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+}
+
+.card-price-wrapper {
+  padding-top: 16px;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-pricetag {
+  position: relative;
+  bottom: 3px;
+  font-family: "Outfit";
+  font-weight: 600;
+  font-size: 18px;
+  color: hsl(178, 100%, 50%);
+}
+
+.card-timecounter {
+  position: relative;
+  bottom: 3px;
+  font-family: "Outfit";
+  font-weight: 300;
+  font-size: 17px;
+  color: hsl(215, 51%, 70%);
+  line-height: 140%;
+}
+
+.avatar-image {
+  max-width: 36px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 100%;
+  padding: 1px;
+}
+
+.creation {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+.card-creator {
+  font-family: "Outfit";
+  font-weight: 400;
+  font-size: 17px;
+  color: hsl(215, 51%, 70%);
+  padding-left: 17px;
+}
+
+.card-creator__name {
+  font-family: "Outfit";
+  font-weight: 400;
+  font-size: 17px;
+  color: hsl(0, 0%, 100%);
+}
+
+h1:hover,
+.card-creator__name:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+.nft-image-hover {
+  display: none;
+  background: hsl(178, 100%, 50%);
+  cursor: pointer;
+  opacity: 0.7;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  padding-top: 130px;
+  box-sizing: border-box;
+}
+.card-image-wrapper:hover .nft-image-hover {
+  display: block;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
