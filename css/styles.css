@@ -20,15 +20,6 @@ h1 {
   color: hsl(0, 0%, 100%);
 }
 
-h3 {
-  padding-top: 18px;
-  font-family: "Outfit";
-  font-weight: 300;
-  font-size: 18px;
-  color: hsl(215, 51%, 70%);
-  line-height: 150%;
-}
-
 hr {
   border-style: none;
   border-top-style: solid;
@@ -68,6 +59,14 @@ hr {
   color: hsl(0, 0%, 100%);
 }
 
+.Card-info {
+  padding-top: 18px;
+  font-family: "Outfit";
+  font-weight: 300;
+  font-size: 18px;
+  color: hsl(215, 51%, 70%);
+  line-height: 150%;
+}
 .card-price-wrapper {
   padding-top: 16px;
   padding-bottom: 15px;
